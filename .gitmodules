@@ -1,0 +1,3 @@
+[submodule "GitPracticeSub"]
+	path = GitPracticeSub
+	url = https://github.com/KarateJB/GitPracticeSub.git
