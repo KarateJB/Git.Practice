@@ -1,0 +1,3 @@
+[submodule "submodules/GitPracticeSub"]
+	path = submodules/GitPracticeSub
+	url = git@github.com:TheForceJB/GitPracticeSub.git
