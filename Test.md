@@ -1,2 +1,2 @@
-## Test
-## Modify from original repository
+Hello, world.
+Hello, Git.
