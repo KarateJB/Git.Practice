@@ -6,7 +6,7 @@
 
 Git repo: https://github.com/TheForceJB/GitPracticeSub
 
-To initialize submodules and checkout `master` branch after forking:
+To initialize submodules and checkout `master` branch after cloning it:
 ```bash
 git submodule update --init --remote
 
@@ -76,36 +76,16 @@ git subtree add \
 ### Path: ./subtrees/Demo/
 
 Git repo: https://github.com/TheForceJB/GitPracticeSub (only on path: ./demo/)
-Remote name: sub-demo
-Branch: master
-
-To pull changes:
-```bash
-git fetch sub-demo
-
-git subtree pull \
-  --prefix=subtrees/GitPracticeSub/Demo \
-  sub-demo \
-  master \
-  --squash
-```
-
-To push changes:
-```bash
-git subtree push \
-  --prefix=subtrees/GitPracticeSub/Demo \
-  sub-demo \
-  master
-```
+Remote name: sub
+Branch: demo-split
 
 PS. The subtree was added by this command:
 ```bash
 git fetch sub
 git subtree add \
-  --prefix=subtrees/GitPracticeSub/Demo \
+  --prefix=subtrees/Demo \
   sub \
-  master:demo \
-  --squash
+  demo-split
 ```
 
 
